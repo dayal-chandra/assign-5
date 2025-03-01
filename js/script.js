@@ -1,5 +1,5 @@
 document.getElementById("complete-btn1").addEventListener("click", function () {
-  alert("task completed");
+  alert("Board updated Successfully");
   const assignedValue = document.getElementById("task-assigned").innerText;
   const convertedAssignedValue = parseInt(assignedValue);
   const abstract = convertedAssignedValue - 1;
@@ -27,7 +27,7 @@ document.getElementById("complete-btn1").addEventListener("click", function () {
   document.getElementById("complete-btn1").style.backgroundColor = "gray";
 });
 document.getElementById("complete-btn2").addEventListener("click", function () {
-  alert("task completed");
+  alert("Board updated Successfully");
 
   const assignedValue = document.getElementById("task-assigned").innerText;
   const convertedAssignedValue = parseInt(assignedValue);
@@ -56,7 +56,7 @@ document.getElementById("complete-btn2").addEventListener("click", function () {
   document.getElementById("complete-btn2").style.backgroundColor = "gray";
 });
 document.getElementById("complete-btn3").addEventListener("click", function () {
-  alert("task completed");
+  alert("Board updated Successfully");
 
   const assignedValue = document.getElementById("task-assigned").innerText;
   const convertedAssignedValue = parseInt(assignedValue);
@@ -85,7 +85,7 @@ document.getElementById("complete-btn3").addEventListener("click", function () {
   document.getElementById("complete-btn3").style.backgroundColor = "gray";
 });
 document.getElementById("complete-btn4").addEventListener("click", function () {
-  alert("task completed");
+  alert("Board updated Successfully");
 
   const assignedValue = document.getElementById("task-assigned").innerText;
   const convertedAssignedValue = parseInt(assignedValue);
@@ -114,7 +114,7 @@ document.getElementById("complete-btn4").addEventListener("click", function () {
   document.getElementById("complete-btn4").style.backgroundColor = "gray";
 });
 document.getElementById("complete-btn5").addEventListener("click", function () {
-  alert("task completed");
+  alert("Board updated Successfully");
 
   const assignedValue = document.getElementById("task-assigned").innerText;
   const convertedAssignedValue = parseInt(assignedValue);
@@ -143,7 +143,7 @@ document.getElementById("complete-btn5").addEventListener("click", function () {
   document.getElementById("complete-btn5").style.backgroundColor = "gray";
 });
 document.getElementById("complete-btn6").addEventListener("click", function () {
-  alert("task completed");
+  alert("Board updated Successfully");
 
   const assignedValue = document.getElementById("task-assigned").innerText;
   const convertedAssignedValue = parseInt(assignedValue);
