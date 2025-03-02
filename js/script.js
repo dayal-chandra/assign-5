@@ -208,8 +208,3 @@ document
 document.getElementById("discover").addEventListener("click", function () {
   window.location.href = "qna.html";
 });
-
-// GOING TO HOME PAGE
-document.getElementById("qna-btn").addEventListener("click", function () {
-  window.location.href = "index.html";
-});
