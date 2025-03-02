@@ -197,6 +197,13 @@ document.getElementById("complete-btn6").addEventListener("click", function () {
 
 // observer.observe(document.body, { childList: true, subtree: true });
 
+// CLEAR HISTORY
+document
+  .getElementById("clear-history-btn")
+  .addEventListener("click", function () {
+    document.getElementById("all-history").innerHTML = "";
+  });
+
 // GOING TO Q&A PAGE
 document.getElementById("discover").addEventListener("click", function () {
   window.location.href = "qna.html";
@@ -206,10 +213,3 @@ document.getElementById("discover").addEventListener("click", function () {
 document.getElementById("qna-btn").addEventListener("click", function () {
   window.location.href = "index.html";
 });
-
-// CLEAR HISTORY
-document
-  .getElementById("clear-history-btn")
-  .addEventListener("click", function () {
-    document.getElementById("all-history").innerHTML = "";
-  });
