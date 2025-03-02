@@ -1,3 +1,10 @@
+// CURRENT DATE
+var today = new Date();
+var ajkerDate = today.toDateString();
+console.log(typeof ajkerDate);
+document.getElementById("date").innerText = ajkerDate;
+
+// COMPLETE BUTTON
 document.getElementById("complete-btn1").addEventListener("click", function () {
   alert("Board updated Successfully");
   const assignedValue = document.getElementById("task-assigned").innerText;
@@ -172,9 +179,37 @@ document.getElementById("complete-btn6").addEventListener("click", function () {
   document.getElementById("complete-btn6").style.backgroundColor = "gray";
 });
 
+// CONGRATULATION ALERT
+
+// const observer = new MutationObserver(function (mutationsList, observer) {
+//   const navNumberElement = document.getElementById("navNumber");
+
+//   if (navNumberElement) {
+//     const navNumberValue = navNumberElement.innerText.trim();
+//     const convertedNavNumber = parseInt(navNumberValue, 10);
+
+//     if (convertedNavNumber === 29) {
+//       alert("Congratulations! You have completed all");
+//       observer.disconnect();
+//     }
+//   }
+// });
+
+// observer.observe(document.body, { childList: true, subtree: true });
+
+// GOING TO Q&A PAGE
 document.getElementById("discover").addEventListener("click", function () {
-  window.location.href = "../qna.html";
+  window.location.href = "qna.html";
 });
+
+// GOING TO HOME PAGE
 document.getElementById("qna-btn").addEventListener("click", function () {
-  window.location.href = "../index.html";
+  window.location.href = "index.html";
 });
+
+// CLEAR HISTORY
+document
+  .getElementById("clear-history-btn")
+  .addEventListener("click", function () {
+    document.getElementById("all-history").innerHTML = "";
+  });
