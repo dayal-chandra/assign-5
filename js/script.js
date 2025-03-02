@@ -31,6 +31,10 @@ document.getElementById("complete-btn1").addEventListener("click", function () {
 
   this.disabled = "true";
   document.getElementById("complete-btn1").style.backgroundColor = "gray";
+
+  if (convertedAssignedValue === 1) {
+    alert("Congratulation!  You have completed all task.");
+  }
 });
 document.getElementById("complete-btn2").addEventListener("click", function () {
   alert("Board updated Successfully");
@@ -60,6 +64,10 @@ document.getElementById("complete-btn2").addEventListener("click", function () {
 
   this.disabled = "true";
   document.getElementById("complete-btn2").style.backgroundColor = "gray";
+
+  if (convertedAssignedValue === 1) {
+    alert("Congratulation! You have completed all task.");
+  }
 });
 document.getElementById("complete-btn3").addEventListener("click", function () {
   alert("Board updated Successfully");
@@ -89,6 +97,10 @@ document.getElementById("complete-btn3").addEventListener("click", function () {
 
   this.disabled = "true";
   document.getElementById("complete-btn3").style.backgroundColor = "gray";
+
+  if (convertedAssignedValue === 1) {
+    alert("Congratulation! You have completed all task.");
+  }
 });
 document.getElementById("complete-btn4").addEventListener("click", function () {
   alert("Board updated Successfully");
@@ -118,6 +130,10 @@ document.getElementById("complete-btn4").addEventListener("click", function () {
 
   this.disabled = "true";
   document.getElementById("complete-btn4").style.backgroundColor = "gray";
+
+  if (convertedAssignedValue === 1) {
+    alert("Congratulation! You have completed all task.");
+  }
 });
 document.getElementById("complete-btn5").addEventListener("click", function () {
   alert("Board updated Successfully");
@@ -147,6 +163,10 @@ document.getElementById("complete-btn5").addEventListener("click", function () {
 
   this.disabled = "true";
   document.getElementById("complete-btn5").style.backgroundColor = "gray";
+
+  if (convertedAssignedValue === 1) {
+    alert("Congratulation! You have completed all task.");
+  }
 });
 document.getElementById("complete-btn6").addEventListener("click", function () {
   alert("Board updated Successfully");
@@ -176,24 +196,11 @@ document.getElementById("complete-btn6").addEventListener("click", function () {
 
   this.disabled = "true";
   document.getElementById("complete-btn6").style.backgroundColor = "gray";
+
+  if (convertedAssignedValue === 1) {
+    alert("Congratulation! You have completed all task.");
+  }
 });
-
-// CONGRATULATION ALERT
-// const observer = new MutationObserver(function (mutationsList, observer) {
-//   const navNumberElement = document.getElementById("navNumber");
-
-//   if (navNumberElement) {
-//     const navNumberValue = navNumberElement.innerText.trim();
-//     const convertedNavNumber = parseInt(navNumberValue, 10);
-
-//     if (convertedNavNumber === 29) {
-//       alert("Congratulations! You have completed all task.");
-//       observer.disconnect();
-//     }
-//   }
-// });
-
-// observer.observe(document.body, { childList: true, subtree: true });
 
 // CLEAR HISTORY
 document
