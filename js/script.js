@@ -1,7 +1,6 @@
 // CURRENT DATE
 var today = new Date();
 var ajkerDate = today.toDateString();
-console.log(typeof ajkerDate);
 document.getElementById("date").innerText = ajkerDate;
 
 // COMPLETE BUTTON
@@ -180,7 +179,6 @@ document.getElementById("complete-btn6").addEventListener("click", function () {
 });
 
 // CONGRATULATION ALERT
-
 // const observer = new MutationObserver(function (mutationsList, observer) {
 //   const navNumberElement = document.getElementById("navNumber");
 
@@ -189,7 +187,7 @@ document.getElementById("complete-btn6").addEventListener("click", function () {
 //     const convertedNavNumber = parseInt(navNumberValue, 10);
 
 //     if (convertedNavNumber === 29) {
-//       alert("Congratulations! You have completed all");
+//       alert("Congratulations! You have completed all task.");
 //       observer.disconnect();
 //     }
 //   }
